@@ -1,0 +1,56 @@
+/* General layout */
+body {
+  font-family: 'Time New Roman',Times, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #075f27d0;
+}
+
+/* Images */
+img.img-thumbnail {
+  border-radius: 50%;
+  width: 300px;       /* or any size you prefer */
+  height: 300px;      /* make height equal to width for a perfect circle */
+  object-fit: cover;  /* ensures the image fills the circle */
+}
+
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(226, 233, 228, 0.413);
+}
+
+/* Buttons */
+.btn-primary, .btn-success {
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover, .btn-success:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Form */
+form input, form textarea {
+  border-radius: 8px;
+  padding: 12px;
+}
+
